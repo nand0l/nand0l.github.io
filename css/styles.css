@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+    color: #e5e5e5;
+    background-color: grey;
+    background: linear-gradient(
+      to bottom,
+      rgba(236, 236, 240, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.317) 120%
+      )
+      #989898;
+    background-blend-mode: multiply, multiply;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1{
+  color: #ffe;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 40px 0px 20px;
+}
+
+h2{
+  color: #ffe;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+	.countdown{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 20px;
+	}
+	#endtime{
+		padding: 5px;
+		width: 200px;
+		font-size: 12px;
+	}
+	.countdown-content{
+		padding: 10px;
+	border-radius: 3px;
+	background: #4c4c4c;
+	display: inline-block;
+	}
+	.countdown-content span{
+		padding: 15px;
+	border-radius: 3px;
+	background: orange;
+	display: inline-block;
+	}
+	.btn{
+		display: block;
+		padding: 3px 20px;
+		margin:10px auto;
+		outline: none;
+		border: none;
+		background: orange;
+		font-size: 16px;
+		font-weight: bold;
+		color: #232425;
+		cursor: pointer;
+	}
+	a{
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  background: #fff;;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  background: #fff;;
+}
+	.btn:hover{
+		background: #c00;
+	}
+	.btn-disabled{
+        cursor: default;
+        pointer-events: none;
+        background: #ccc;
+	}
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+footer {
+ font-size: 12px;
+  clear: both;
+  text-align: center;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+
+        }
+
+#BackBtn {
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 20px; /* Place the button at the bottom of the page */
+right: 30px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+background-color: #ffa500; /* Set a background color */
+color: white; /* Text color */
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 15px; /* Some padding */
+border-radius: 10px; /* Rounded corners */
+font-size: 18px; /* Increase font size */
+}
+
+#BackBtn:hover {
+background-color: #555; /* Add a dark-grey background on hover */
+}
